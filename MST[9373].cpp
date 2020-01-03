@@ -17,6 +17,8 @@ struct Edge {
 	bool operator < (const Edge a) const {
 		return w < a.w;
 	}
+
+
 };
 
 double calc(Circle a, Circle b) {
